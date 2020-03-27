@@ -3,17 +3,17 @@ import { Card } from './components/Card'
 import { Overlay } from './components/Overlay'
 import './lemon.css'
   
-  const LemonStyle = {
-  input: 'lemon',
-  emoji:'🍋',
-  text: 'This is very tasty fruit',
-  buttonText: 'Order Now',
+const LemonStyle = {
+  title: 'Lemon',
+  emoji: '🍋',
+  text: 'This is a very tasty fruit',
+  submitMessage: 'Order Now',
   cardStyle: 'lemon-card',
   titleColor: 'lemon-title',
   contentCard: 'lemon-content',
   contentText: 'lemon-content-text',
   buttonStyle: 'lemon-button'
-  }
+}
 
   const DogStyle = {
     title: 'Dog',
